@@ -1,0 +1,5 @@
+Numero1 = int(input("Ingresa el primer número: "))
+Numero2 = int(input("Ingresa el segundo número: "))
+Numero3 = int(input("Ingresa el tercer número: "))
+Numero_mas_grande = max(Numero1, Numero2, Numero3)
+print("El número más grande es:", Numero_mas_grande)
