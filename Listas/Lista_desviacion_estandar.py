@@ -17,4 +17,4 @@ for numero in numeros_ingresados:
     diferencia_al_cuadrado = diferencia ** 2
     diferencias_al_cuadrado += diferencia_al_cuadrado
 desviacion_estandar = (diferencias_al_cuadrado / len(numeros_ingresados)) ** 0.5
-print(f"La desviación estándar de los números ingresados es: {desviacion_estandar}")
+print(f"La desviación estandar de los números ingresados es: {desviacion_estandar}")

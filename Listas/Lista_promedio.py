@@ -2,7 +2,7 @@ import random
 
 numeros_aleatorios = []
 
-for i in range(1):
+for i in range(10):
     numero = random.randint(10, 20)
     numeros_aleatorios.append(numero)
 
