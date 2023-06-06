@@ -1,0 +1,15 @@
+from persona import *
+
+print(persona.getNombre()) 
+print(persona.getDocumento())
+print(persona.getCursos())
+persona.addCurso(input("Ingrese un curso:"))
+cursos = persona.getCursos()
+print(cursos)
+persona.modificarNombreCurso(input("ingrese el nombre del curso que desse modificar:"))
+print(cursos) 
+cursos = persona.getCursos()
+print(cursos) 
+persona.eliminarCursos(input("Ingrese el curso que desea eliminar:"))
+print(persona.eliminarCursos)
+print(persona.getCursos())
